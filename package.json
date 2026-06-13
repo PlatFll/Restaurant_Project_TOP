@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
+    "start": "webpack serve --open",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "start": "webpack serve --open",
     "url": "git+https://github.com/PlatFll/Restaurant_Project_TOP.git"
   },
   "keywords": [],
