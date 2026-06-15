@@ -25,7 +25,7 @@ function renderHome(content) {
 
     const location = document.createElement("p");
     location.classList.add("location");
-    location.textContent = "DragonClaw, Between the 3rd and the 5th roads";
+    location.textContent = "DragonClaw, Between the 3rd and the 5th roads.";
 
     heroSection.appendChild(title);
     heroSection.appendChild(description);
