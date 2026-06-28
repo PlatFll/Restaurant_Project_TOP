@@ -7,7 +7,7 @@ function renderHome(content) {
 
     const title = document.createElement("h1");
     title.classList.add("restaurant-title");
-    title.textContent = "Dragon's Hearth";
+    title.textContent = "The Red Wyrmminn";
 
     const description = document.createElement("p");
     description.classList.add("restaurant-description");

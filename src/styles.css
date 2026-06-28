@@ -36,3 +36,7 @@ button:hover {
     border: 5px solid rgb(86, 162, 206);
     border-radius: 10px;
 }
+
+.item-image {
+    width: 300px;
+}

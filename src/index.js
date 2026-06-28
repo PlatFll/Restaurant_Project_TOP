@@ -1,6 +1,7 @@
 import "./styles.css";
 import { renderHome } from "./home.js";
 import { renderMenu } from "./menu.js";
+import { renderAbout } from "./about.js";
 
 const content = document.querySelector("#content");
 
@@ -23,7 +24,13 @@ function loadMenu() {
     renderMenu(content);
 };
 
+function loadAbout() {
+    clearContent();
+    renderAbout(content);
+};
+
 loadHome();
 
-homeBtn = addEventListener("click", loadHome);
-menuBtn = addEventListener("click", loadMenu);
+homeBtn.addEventListener("click", loadHome);
+menuBtn.addEventListener("click", loadMenu);
+aboutBtn.addEventListener("click", loadAbout);

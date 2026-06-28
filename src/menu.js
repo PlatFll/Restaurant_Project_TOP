@@ -1,4 +1,5 @@
-import steakImg from "./images/dragon-steak.jpg";
+import steakImg from "./images/dragon-steak.png";
+import bassImg from "./images/seared-bass.png";
 
 
 function itemGenerator(titleOfItem, picture, ingredients, price){
@@ -9,6 +10,7 @@ function itemGenerator(titleOfItem, picture, ingredients, price){
     itemTitle.textContent = titleOfItem;
 
     const itemImage = document.createElement("img");
+    itemImage.classList.add("item-image");
     itemImage.src = picture;
     itemImage.alt = titleOfItem;
 
@@ -46,7 +48,7 @@ function renderMenu (content) {
 
     const secondItem = itemGenerator(
         "Fisherman's Joy",
-        "",
+        bassImg,
         "Seared sea bass, broccolli, sliced mushrooms",
         "8 Silver Coins"
     );
