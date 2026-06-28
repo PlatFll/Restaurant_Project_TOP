@@ -41,8 +41,6 @@ function renderHome(content) {
     homePage.appendChild(locationSection);
 
     content.appendChild(homePage);
-
-
 };
 
 export { renderHome };

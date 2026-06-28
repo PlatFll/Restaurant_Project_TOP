@@ -30,7 +30,7 @@ button:hover {
     background-color: rgb(255, 255, 255);
     justify-content: center;
     align-items: center;
-    width: 80rem;
+    width: min(80rem, 90%);
     padding: 20px;
     margin: 20px auto;
     border: 5px solid rgb(86, 162, 206);
