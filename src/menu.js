@@ -1,3 +1,6 @@
+import steakImg from "./images/dragon-steak.jpg";
+
+
 function itemGenerator(titleOfItem, picture, ingredients, price){
     const itemCard = document.createElement("div");
     itemCard.classList.add("item-card");
@@ -36,7 +39,7 @@ function renderMenu (content) {
 
     const firstItem = itemGenerator(
         "Dragon Steak",
-        "",
+        steakImg,
         "Grilled dragon meat, roasted potatoes, garlic butter",
         "15 Silver Coins"
     );
